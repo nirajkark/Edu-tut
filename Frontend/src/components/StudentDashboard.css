@@ -1,0 +1,41 @@
+/* src/components/StudentDashboard.css */
+.video-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-item {
+  width: 100%;
+  max-width: 560px;
+}
+
+@media (min-width: 768px) {
+  .video-item {
+    max-width: 560px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.hover\:bg-gray-700:hover {
+  background-color: #4a5568; /* Change to your desired hover background color */
+}
